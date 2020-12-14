@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30803.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section1", "Section1", "{D33BA62F-9700-4ACA-8740-3152401C55EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section2", "Section2", "{425DD85A-C315-4302-B882-AFAFF4B7F0DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WasmServerPrerendering2.Server", "Section2\VDAP.WasmServerPrerendering2\Server\VDAP.WasmServerPrerendering2.Server.csproj", "{7BBB8105-1A48-498B-AC8C-851118ECD236}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WasmServerPrerendering2.Client", "Section2\VDAP.WasmServerPrerendering2\Client\VDAP.WasmServerPrerendering2.Client.csproj", "{8AA279E7-FD20-4689-BDE1-4A52F0BE3D29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WasmServerPrerendering2.Shared", "Section2\VDAP.WasmServerPrerendering2\Shared\VDAP.WasmServerPrerendering2.Shared.csproj", "{265B17CE-2996-4998-AB04-D1ABA78749CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section3", "Section3", "{E110A332-70E5-4F22-9126-B0C70AAAD3E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WASMClient", "Section1\VDAP.WASMClient\VDAP.WASMClient.csproj", "{3C4AAF08-A489-4C88-9768-209C70D0781B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WASMClient.Shared", "Section1\VDAP.WASMClient.Shared\VDAP.WASMClient.Shared.csproj", "{6E0CE777-AD5B-48D7-ABC0-EF9402DA3F69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WasmServerPrerendering2.Client", "Section3\VDAP.WasmServerPrerendering3\Client\VDAP.WasmServerPrerendering2.Client.csproj", "{CE30211E-A218-4F88-A229-09C43852C00E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WasmServerPrerendering2.Server", "Section3\VDAP.WasmServerPrerendering3\Server\VDAP.WasmServerPrerendering2.Server.csproj", "{C28C00DE-8E73-4A1D-8250-ADE67EDAB503}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDAP.WasmServerPrerendering2.Shared", "Section3\VDAP.WasmServerPrerendering3\Shared\VDAP.WasmServerPrerendering2.Shared.csproj", "{A5584BD1-9572-4A42-A162-5BF2E73BD8ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BBB8105-1A48-498B-AC8C-851118ECD236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBB8105-1A48-498B-AC8C-851118ECD236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBB8105-1A48-498B-AC8C-851118ECD236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBB8105-1A48-498B-AC8C-851118ECD236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA279E7-FD20-4689-BDE1-4A52F0BE3D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA279E7-FD20-4689-BDE1-4A52F0BE3D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA279E7-FD20-4689-BDE1-4A52F0BE3D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA279E7-FD20-4689-BDE1-4A52F0BE3D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265B17CE-2996-4998-AB04-D1ABA78749CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265B17CE-2996-4998-AB04-D1ABA78749CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265B17CE-2996-4998-AB04-D1ABA78749CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265B17CE-2996-4998-AB04-D1ABA78749CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4AAF08-A489-4C88-9768-209C70D0781B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4AAF08-A489-4C88-9768-209C70D0781B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4AAF08-A489-4C88-9768-209C70D0781B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4AAF08-A489-4C88-9768-209C70D0781B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0CE777-AD5B-48D7-ABC0-EF9402DA3F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0CE777-AD5B-48D7-ABC0-EF9402DA3F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0CE777-AD5B-48D7-ABC0-EF9402DA3F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0CE777-AD5B-48D7-ABC0-EF9402DA3F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE30211E-A218-4F88-A229-09C43852C00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE30211E-A218-4F88-A229-09C43852C00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE30211E-A218-4F88-A229-09C43852C00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE30211E-A218-4F88-A229-09C43852C00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28C00DE-8E73-4A1D-8250-ADE67EDAB503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28C00DE-8E73-4A1D-8250-ADE67EDAB503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28C00DE-8E73-4A1D-8250-ADE67EDAB503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28C00DE-8E73-4A1D-8250-ADE67EDAB503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5584BD1-9572-4A42-A162-5BF2E73BD8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5584BD1-9572-4A42-A162-5BF2E73BD8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5584BD1-9572-4A42-A162-5BF2E73BD8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5584BD1-9572-4A42-A162-5BF2E73BD8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BBB8105-1A48-498B-AC8C-851118ECD236} = {425DD85A-C315-4302-B882-AFAFF4B7F0DC}
+		{8AA279E7-FD20-4689-BDE1-4A52F0BE3D29} = {425DD85A-C315-4302-B882-AFAFF4B7F0DC}
+		{265B17CE-2996-4998-AB04-D1ABA78749CF} = {425DD85A-C315-4302-B882-AFAFF4B7F0DC}
+		{3C4AAF08-A489-4C88-9768-209C70D0781B} = {D33BA62F-9700-4ACA-8740-3152401C55EB}
+		{6E0CE777-AD5B-48D7-ABC0-EF9402DA3F69} = {D33BA62F-9700-4ACA-8740-3152401C55EB}
+		{CE30211E-A218-4F88-A229-09C43852C00E} = {E110A332-70E5-4F22-9126-B0C70AAAD3E6}
+		{C28C00DE-8E73-4A1D-8250-ADE67EDAB503} = {E110A332-70E5-4F22-9126-B0C70AAAD3E6}
+		{A5584BD1-9572-4A42-A162-5BF2E73BD8ED} = {E110A332-70E5-4F22-9126-B0C70AAAD3E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60462695-023F-44E1-9831-B84D13F7B836}
+	EndGlobalSection
+EndGlobal

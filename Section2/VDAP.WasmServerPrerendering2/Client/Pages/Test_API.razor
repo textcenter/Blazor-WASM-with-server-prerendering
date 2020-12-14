@@ -1,0 +1,25 @@
+﻿@page "/Test_Api"
+@using    VDAP.WasmServerPrerendering2.Client.BAL.Model
+@inject APIServiceTest aPIService
+<h1>Data From API</h1>
+@if (TestData == null)
+{
+    <div>Loading</div>
+}
+else
+{
+    <div><b>Id:</b> @TestData.data.id</div>
+    <div><b>Name:</b> @TestData.data.name</div>
+}
+@code{
+
+    public TestModel TestData { get; set; }
+    
+    protected async override Task OnInitializedAsync()
+    {
+
+        TestData = await aPIService.GetTestData();
+
+    }
+}
+
