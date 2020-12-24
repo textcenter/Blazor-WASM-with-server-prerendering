@@ -30,6 +30,7 @@ namespace VDAP.WasmServerPrerendering2.Server
             AppGlobalInfo.AppSettings = new AppSettings();
             //Loading app setting data from appsetting.development.json
             Configuration.GetSection("AppSettings").Bind(AppGlobalInfo.AppSettings);
+            AppGlobalInfo.AppSettings.IsServerPreredering = true;
             services.AddTransient<APIServiceTest>();
         }
 
